@@ -1,4 +1,4 @@
-Exploratory Data Analysis of Netflix's global content library 
+## Exploratory Data Analysis of Netflix's global content library 
 
 ## What's Inside
 
@@ -17,7 +17,7 @@ Exploratory Data Analysis of Netflix's global content library
 
 ---
 
-## 🗂 Dataset
+##  Dataset
 
 This project uses the *Netflix Movies and TV Shows* dataset available on Kaggle:
 Available at: https://www.kaggle.com/datasets/shivamb/netflix-shows
@@ -26,11 +26,11 @@ A copy of the dataset is provided in the `data/` directory to ensure reproducibi
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ```bash
 # 1. Clone the repo
-git clone https://github.com/YOUR_USERNAME/netflix-eda.git
+git clone https://github.com/Maggarb/netflix-data-analysis.git
 cd netflix-eda
 
 # 2. Install dependencies
