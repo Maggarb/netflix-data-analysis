@@ -1,8 +1,6 @@
-# 🎬 Netflix Content EDA
+Exploratory Data Analysis of Netflix's global content library 
 
-Exploratory Data Analysis of Netflix's global content library — uncovering patterns in genres, countries, ratings and release trends.
-
-## 📊 What's Inside
+## What's Inside
 
 | Section | Description |
 |---|---|
@@ -21,18 +19,10 @@ Exploratory Data Analysis of Netflix's global content library — uncovering pat
 
 ## 🗂 Dataset
 
-[Netflix Movies and TV Shows](https://www.kaggle.com/datasets/shivamb/netflix-shows) — Kaggle  
-~8,800 titles with title, type, director, cast, country, date added, rating, duration, and genre.
+This project uses the *Netflix Movies and TV Shows* dataset available on Kaggle:
+Available at: https://www.kaggle.com/datasets/shivamb/netflix-shows
 
-**Download options:**
-
-```bash
-# Option A — Kaggle CLI
-kaggle datasets download -d shivamb/netflix-shows --unzip
-
-# Option B — manual
-# Download netflix_titles.csv from the link above and place it in this folder
-```
+A copy of the dataset is provided in the `data/` directory to ensure reproducibility of the analysis.
 
 ---
 
@@ -46,26 +36,12 @@ cd netflix-eda
 # 2. Install dependencies
 pip install -r requirements.txt
 
-# 3. Download dataset (see above)
-
-# 4. Launch notebook
-jupyter notebook netflix_eda.ipynb
 ```
 
 ---
 
-## 📦 Requirements
 
-```
-pandas
-numpy
-matplotlib
-seaborn
-```
-
----
-
-## 🔍 Key Findings
+##  Key Findings
 
 - **~70% Movies** — but TV Show additions have accelerated since 2018
 - **USA dominates**, followed by India and the UK
@@ -76,11 +52,3 @@ seaborn
 
 ---
 
-## 💡 Possible Extensions
-
-- 🌍 Choropleth map of production by country with Plotly
-- 📝 NLP clustering on descriptions with TF-IDF + KMeans
-- 🤖 Content-based recommendation engine (cosine similarity)
-- 📈 Time-series forecast of content additions with Prophet
-
----
